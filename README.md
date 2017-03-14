@@ -9,7 +9,42 @@
 ※ 테이블 작성은 http://www.tablesgenerator.com/markdown_tables 를 이용하면, 쉽게 가능합니다.
 -->
 ### 통신 목록
-| 방향             | 타입    | 경우      | 비고 |
-|------------------|---------|-----------|------|
-| Server -> Client | welcome | 채널 입장 |      |
-| Server -> Client | conn    |           |      |
+| 방향             | 타입           | 경우 | 비고 |
+|------------------|----------------|------|------|
+| Server -> Client | welcome        |      |      |
+| Server -> Client | conn           |      |      |
+| Server -> Client | disconn        |      |      |
+| Server -> Client | connRoom       |      |      |
+| Server -> Client | disconnRoom    |      |      |
+| Server -> Client | yell           |      |      |
+| Server -> Client | dying          |      |      |
+| Server -> Client | tail           |      |      |
+| Server -> Client | chat           |      |      |
+| Server -> Client | roomStuck      |      |      |
+| Server -> Client | preRoom        |      |      |
+| Server -> Client | room           |      |      |
+| Server -> Client | user           |      |      |
+| Server -> Client | friends        |      |      |
+| Server -> Client | friend         |      |      |
+| Server -> Client | friendAdd      |      |      |
+| Server -> Client | friendAddRes   |      |      |
+| Server -> Client | friendEdit     |      |      |
+| Server -> Client | starting       |      |      |
+| Server -> Client | roundReady     |      |      |
+| Server -> Client | turnStart      |      |      |
+| Server -> Client | turnError      |      |      |
+| Server -> Client | turnHint       |      |      |
+| Server -> Client | turnEnd        |      |      |
+| Server -> Client | roundEnd       |      |      |
+| Server -> Client | kickVote       |      |      |
+| Server -> Client | kickDeny       |      |      |
+| Server -> Client | invited        |      |      |
+| Server -> Client | inviteNo       |      |      |
+| Server -> Client | okg            |      |      |
+| Server -> Client | obtain         |      |      |
+| Server -> Client | expired        |      |      |
+| Server -> Client | blocked        |      |      |
+| Server -> Client | test           |      |      |
+| Server -> Client | error          |      |      |
+| Client -> Server | seek           |      |      |
+| Client -> Server | narrate-friend |      |      |
