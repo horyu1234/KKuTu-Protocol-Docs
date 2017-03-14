@@ -46,5 +46,29 @@
 | Server -> Client | blocked        |      |      |
 | Server -> Client | test           |      |      |
 | Server -> Client | error          |      |      |
-| Client -> Server | seek           |      |      |
-| Client -> Server | narrate-friend |      |      |
+| Client -> Server | yell           |      |      |
+| Client -> Server | refresh        |      |      |
+| Client -> Server | talk           |      |      |
+| Client -> Server | friendAdd      |      |      |
+| Client -> Server | friendAddRes   |      |      |
+| Client -> Server | friendEdit     |      |      |
+| Client -> Server | friendRemove   |      |      |
+| Client -> Server | enter          |      |      |
+| Client -> Server | setRoom        |      |      |
+| Client -> Server | leave          |      |      |
+| Client -> Server | ready          |      |      |
+| Client -> Server | start          |      |      |
+| Client -> Server | practice       |      |      |
+| Client -> Server | invite         |      |      |
+| Client -> Server | inviteRes      |      |      |
+| Client -> Server | form           |      |      |
+| Client -> Server | team           |      |      |
+| Client -> Server | kick           |      |      |
+| Client -> Server | kickVote       |      |      |
+| Client -> Server | handover       |      |      |
+| Client -> Server | wp             |      |      |
+| Client -> Server | setAI          |      |      |
+| Client -> Server | caj            |      |      |
+| Client -> Server | test           |      |      |
+|                  | seek           |      |      |
+|                  | narrate-friend |      |      |
