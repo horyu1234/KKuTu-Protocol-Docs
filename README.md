@@ -23,7 +23,7 @@
 | tail         |                   |                  |
 | chat         |                   |                  |
 | roomStuck    |                   |                  |
-| preRoom      | 방 생성           | 개인             |
+| preRoom      |            |              |
 | room         |                   |                  |
 | user         | 유저 설정         |                  |
 | friends      | 친구 목록         |                  |
