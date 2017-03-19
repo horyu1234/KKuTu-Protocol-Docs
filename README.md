@@ -32,7 +32,7 @@
 | friendAddRes | 친구 추가 요청    |                  |
 | friendEdit   |                   |                  |
 | starting     | 게임 시작 중      |                  |
-| roundReady   | 라운드 준비       |                  |
+| [roundReady](/Server%20to%20Client/roundReady.md)   | 라운드 준비       |                  |
 | turnStart    | 턴 시작           |                  |
 | turnError    | 턴 오류           |                  |
 | turnHint     | 턴 힌트           |                  |
@@ -62,9 +62,9 @@
 | friendRemove   |                    |
 | enter          | 방 입장            |
 | setRoom        | 방 설정            |
-| leave          | 방 퇴장            |
+| [leave](/Client%20to%20Server/leave.md)          | 방 퇴장            |
 | ready          | 게임 준비          |
-| start          | 게임 시작          |
+| [start](/Client%20to%20Server/start.md)          | 게임 시작          |
 | practice       | 게임 관전          |
 | invite         | 방 초대            |
 | inviteRes      | 방 초대 결과       |
