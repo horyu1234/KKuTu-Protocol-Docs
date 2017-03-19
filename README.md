@@ -36,7 +36,7 @@
 | turnStart    | 턴 시작           |                  |
 | turnError    | 턴 오류           |                  |
 | turnHint     | 턴 힌트           |                  |
-| turnEnd      | 턴 종료           |                  |
+| [turnEnd](/Server%20to%20Client/turnEnd.md)      | 턴 종료           |                  |
 | roundEnd     | 라운드 종료       |                  |
 | kickVote     | 방 추방 투표 진행 | 방에 있는 모두   |
 | kickDeny     | 방 추방 투표 부결 | 방에 있는 모두   |
