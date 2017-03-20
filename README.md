@@ -24,8 +24,8 @@
 | chat                                              |                   |                  |
 | roomStuck                                         |                   |                  |
 | preRoom                                           |                   |                  |
-| room                                              |                   |                  |
-| user                                              | 유저 설정         |                  |
+| room                                              | 방 업데이트       | 채널에 있는 모두 |
+| user                                              | 유저 업데이트     | 채널에 있는 모두 |
 | friends                                           | 친구 목록         |                  |
 | friend                                            |                   |                  |
 | friendAdd                                         |                   |                  |
