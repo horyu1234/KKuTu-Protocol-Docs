@@ -40,8 +40,8 @@
 | roundEnd                                          | 라운드 종료       |                  |
 | kickVote                                          | 방 추방 투표 진행 | 방에 있는 모두   |
 | kickDeny                                          | 방 추방 투표 부결 | 방에 있는 모두   |
-| invited                                           | 방 초대 수신      | 개인             |
-| inviteNo                                          | 방 초대 거절      | 방의 방장        |
+| [invited](/Server%20to%20Client/invited.md)       | 방 초대 수신      | 개인             |
+| [inviteNo](/Server%20to%20Client/inviteNo.md)     | 방 초대 거절      | 방의 방장        |
 | okg                                               | 오끄감 버프       | 개인             |
 | obtain                                            |                   |                  |
 | expired                                           |                   |                  |
@@ -51,32 +51,32 @@
 
 #### Client -> Server
 
-| 타입                                    | 종류               |
-|-----------------------------------------|--------------------|
-| yell                                    | 공지               |
-| refresh                                 |                    |
-| talk                                    | 채팅               |
-| friendAdd                               |                    |
-| friendAddRes                            |                    |
-| friendEdit                              |                    |
-| friendRemove                            |                    |
-| enter                                   | 방 입장            |
-| setRoom                                 | 방 설정            |
-| [leave](/Client%20to%20Server/leave.md) | 방 퇴장            |
-| ready                                   | 게임 준비          |
-| [start](/Client%20to%20Server/start.md) | 게임 시작          |
-| practice                                | 게임 관전          |
-| invite                                  | 방 초대            |
-| inviteRes                               | 방 초대 결과       |
-| form                                    |                    |
-| team                                    |                    |
-| kick                                    |                    |
-| kickVote                                |                    |
-| handover                                | 방 방장 양도       |
-| wp                                      |                    |
-| setAI                                   | 봇 설정            |
-| caj                                     | 셧다운제 연령 확인 |
-| test                                    |                    |
+| 타입                                            | 종류               |
+|-------------------------------------------------|--------------------|
+| yell                                            | 공지               |
+| refresh                                         |                    |
+| talk                                            | 채팅               |
+| friendAdd                                       |                    |
+| friendAddRes                                    |                    |
+| friendEdit                                      |                    |
+| friendRemove                                    |                    |
+| enter                                           | 방 입장            |
+| setRoom                                         | 방 설정            |
+| [leave](/Client%20to%20Server/leave.md)         | 방 퇴장            |
+| ready                                           | 게임 준비          |
+| [start](/Client%20to%20Server/start.md)         | 게임 시작          |
+| practice                                        | 게임 관전          |
+| [invite](/Client%20to%20Server/invite.md)       | 방 초대            |
+| [inviteRes](/Client%20to%20Server/inviteRes.md) | 방 초대 결과       |
+| form                                            |                    |
+| team                                            |                    |
+| kick                                            |                    |
+| kickVote                                        |                    |
+| handover                                        | 방 방장 양도       |
+| wp                                              |                    |
+| setAI                                           | 봇 설정            |
+| caj                                             | 셧다운제 연령 확인 |
+| test                                            |                    |
 
 #### 알 수 없음
 
