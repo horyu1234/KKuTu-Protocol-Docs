@@ -15,7 +15,7 @@
 |---------------------------------------------------|-------------------|------------------|
 | [welcome](/Server%20to%20Client/welcome.md)       | 채널 입장         | 개인             |
 | [conn](/Server%20to%20Client/conn.md)             | 채널 입장         | 채널에 있는 모두 |
-| disconn                                           | 채널 퇴장         | 채널에 있는 모두 |
+| [disconn](/Server%20to%20Client/disconn.md)       | 채널 퇴장         | 채널에 있는 모두 |
 | connRoom                                          | 방 입장           | 방에 있는 모두   |
 | disconnRoom                                       | 방 퇴장           | 방에 있는 모두   |
 | yell                                              | 공지              | 채널에 있는 모두 |
