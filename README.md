@@ -18,8 +18,8 @@
 | [disconn](/Server%20to%20Client/disconn.md)         | 채널 퇴장         | 채널에 있는 모두 |
 | [connRoom](/Server%20to%20Client/connRoom.md)       | 방 입장           | 방에 있는 모두   |
 | [disconnRoom](/Server%20to%20Client/disconnRoom.md) | 방 퇴장           | 방에 있는 모두   |
-| yell                                                | 공지              | 채널에 있는 모두 |
-| dying                                               | 채널 오류         | 채널에 있는 모두 |
+| [yell](/Server%20to%20Client/yell.md)               | 공지              | 채널에 있는 모두 |
+| [dying](/Server%20to%20Client/dying.md)             | 채널 오류         | 채널에 있는 모두 |
 | tail                                                |                   |                  |
 | chat                                                |                   |                  |
 | roomStuck                                           |                   |                  |
@@ -55,7 +55,7 @@
 |-------------------------------------------------------|--------------------|
 | yell                                                  | 공지               |
 | refresh                                               |                    |
-| talk                                                  | 채팅               |
+| [talk](/Client%20to%20Server/talk.md)                 | 채팅               |
 | friendAdd                                             |                    |
 | friendAddRes                                          |                    |
 | [friendEdit](/Client%20to%20Server/friendEdit.md)     |                    |
